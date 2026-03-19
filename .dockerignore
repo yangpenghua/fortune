@@ -1,0 +1,39 @@
+# 依赖目录
+node_modules
+.npm
+
+# 构建产物
+.next
+out
+
+# 环境变量文件（防止意外打包到镜像）
+.env
+.env.local
+.env.*.local
+
+# IDE 和编辑器
+.idea
+.vscode
+*.swp
+*.swo
+
+# Git
+.git
+.gitignore
+.gitattributes
+
+# 文档
+README.md
+plan.md
+DEPLOY_PLAN.md
+*.md
+
+# 日志
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 临时文件
+*.tmp
+*.temp
+.DS_Store

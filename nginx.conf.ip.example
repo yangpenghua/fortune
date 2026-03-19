@@ -1,0 +1,52 @@
+# ==========================================
+# AI算命应用 Nginx 配置（公网IP访问专用）
+# 将此文件复制到 /etc/nginx/sites-available/suanming
+# 然后创建软链接：ln -s /etc/nginx/sites-available/suanming /etc/nginx/sites-enabled/
+# ==========================================
+
+server {
+    listen 80 default_server;
+    listen [::]:80 default_server;
+
+    # 使用公网IP访问时，server_name 设为 "_" 或留空
+    server_name _;
+
+    # 日志配置
+    access_log /var/log/nginx/suanming_access.log;
+    error_log /var/log/nginx/suanming_error.log;
+
+    # 最大上传大小
+    client_max_body_size 10M;
+
+    # 反向代理到 Docker 容器
+    location / {
+        proxy_pass http://127.0.0.1:3000;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection "upgrade";
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+        proxy_cache_bypass $http_upgrade;
+
+        # 超时配置
+        proxy_connect_timeout 60s;
+        proxy_send_timeout 60s;
+        proxy_read_timeout 60s;
+    }
+
+    # 静态文件缓存（Next.js 静态资源）
+    location /_next/static {
+        proxy_pass http://127.0.0.1:3000;
+        proxy_cache_valid 200 365d;
+        proxy_cache_valid 404 1m;
+        add_header Cache-Control "public, max-age=31536000, immutable";
+    }
+
+    location /public {
+        proxy_pass http://127.0.0.1:3000;
+        proxy_cache_valid 200 365d;
+        add_header Cache-Control "public, max-age=31536000, immutable";
+    }
+}
