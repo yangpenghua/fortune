@@ -113,6 +113,12 @@
   },
   "hotPaths": [
     {
+      "path": "Dockerfile",
+      "accessCount": 6,
+      "lastAccessed": 1773891302579,
+      "type": "file"
+    },
+    {
       "path": "src/app/result/page.tsx",
       "accessCount": 4,
       "lastAccessed": 1773890604117,
@@ -120,14 +126,8 @@
     },
     {
       "path": "docker-compose.yml",
-      "accessCount": 3,
-      "lastAccessed": 1773886397864,
-      "type": "file"
-    },
-    {
-      "path": "Dockerfile",
-      "accessCount": 2,
-      "lastAccessed": 1773886217404,
+      "accessCount": 4,
+      "lastAccessed": 1773891186366,
       "type": "file"
     },
     {
@@ -174,14 +174,20 @@
     },
     {
       "path": "package.json",
-      "accessCount": 1,
-      "lastAccessed": 1773886155940,
+      "accessCount": 2,
+      "lastAccessed": 1773890875879,
+      "type": "file"
+    },
+    {
+      "path": "README.md",
+      "accessCount": 2,
+      "lastAccessed": 1773890875931,
       "type": "file"
     },
     {
       "path": "next.config.js",
-      "accessCount": 1,
-      "lastAccessed": 1773886162714,
+      "accessCount": 2,
+      "lastAccessed": 1773891215115,
       "type": "file"
     },
     {
@@ -206,12 +212,6 @@
       "path": "src/types/index.ts",
       "accessCount": 1,
       "lastAccessed": 1773886176458,
-      "type": "file"
-    },
-    {
-      "path": "README.md",
-      "accessCount": 1,
-      "lastAccessed": 1773886176524,
       "type": "file"
     },
     {
