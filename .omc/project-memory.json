@@ -113,6 +113,12 @@
   },
   "hotPaths": [
     {
+      "path": "src/app/result/page.tsx",
+      "accessCount": 4,
+      "lastAccessed": 1773890604117,
+      "type": "file"
+    },
+    {
       "path": "docker-compose.yml",
       "accessCount": 3,
       "lastAccessed": 1773886397864,
@@ -131,6 +137,42 @@
       "type": "file"
     },
     {
+      "path": ".env.example",
+      "accessCount": 2,
+      "lastAccessed": 1773889383791,
+      "type": "file"
+    },
+    {
+      "path": "src/lib/doubao/client.ts",
+      "accessCount": 2,
+      "lastAccessed": 1773889383899,
+      "type": "file"
+    },
+    {
+      "path": ".env.local",
+      "accessCount": 2,
+      "lastAccessed": 1773889414202,
+      "type": "file"
+    },
+    {
+      "path": ".env",
+      "accessCount": 2,
+      "lastAccessed": 1773889414254,
+      "type": "file"
+    },
+    {
+      "path": "src/components/common/GuochaoCard.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1773890467382,
+      "type": "file"
+    },
+    {
+      "path": "src/app/page.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1773890506163,
+      "type": "file"
+    },
+    {
       "path": "package.json",
       "accessCount": 1,
       "lastAccessed": 1773886155940,
@@ -140,12 +182,6 @@
       "path": "next.config.js",
       "accessCount": 1,
       "lastAccessed": 1773886162714,
-      "type": "file"
-    },
-    {
-      "path": ".env.example",
-      "accessCount": 1,
-      "lastAccessed": 1773886162758,
       "type": "file"
     },
     {
@@ -161,12 +197,6 @@
       "type": "file"
     },
     {
-      "path": "src/app/page.tsx",
-      "accessCount": 1,
-      "lastAccessed": 1773886169652,
-      "type": "file"
-    },
-    {
       "path": "tailwind.config.ts",
       "accessCount": 1,
       "lastAccessed": 1773886169704,
@@ -176,12 +206,6 @@
       "path": "src/types/index.ts",
       "accessCount": 1,
       "lastAccessed": 1773886176458,
-      "type": "file"
-    },
-    {
-      "path": "src/lib/doubao/client.ts",
-      "accessCount": 1,
-      "lastAccessed": 1773886176510,
       "type": "file"
     },
     {
@@ -197,18 +221,6 @@
       "type": "file"
     },
     {
-      "path": ".env.local",
-      "accessCount": 1,
-      "lastAccessed": 1773886178844,
-      "type": "file"
-    },
-    {
-      "path": ".env",
-      "accessCount": 1,
-      "lastAccessed": 1773886178897,
-      "type": "file"
-    },
-    {
       "path": "nginx.conf.example",
       "accessCount": 1,
       "lastAccessed": 1773886217426,
@@ -218,6 +230,24 @@
       "path": "nginx.conf.ip.example",
       "accessCount": 1,
       "lastAccessed": 1773886420908,
+      "type": "file"
+    },
+    {
+      "path": ".env.local.example",
+      "accessCount": 1,
+      "lastAccessed": 1773889383842,
+      "type": "file"
+    },
+    {
+      "path": "src/app/history/page.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1773890447365,
+      "type": "file"
+    },
+    {
+      "path": "src/app/result/loading.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1773890517132,
       "type": "file"
     }
   ],

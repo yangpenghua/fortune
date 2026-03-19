@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useRef, useEffect } from 'react'
+import { useState, useRef, useEffect, Suspense } from 'react'
 import { useSearchParams, useRouter } from 'next/navigation'
 import { FortuneData } from '@/types'
 import { GuochaoCard } from '@/components/common/GuochaoCard'
@@ -10,7 +10,7 @@ import { ResultActions } from '@/components/result/ResultActions'
 import { ShareImage } from '@/components/result/ShareImage'
 import { generateShareImage, downloadImage } from '@/lib/image'
 
-export default function ResultPage() {
+function ResultContent() {
   const router = useRouter()
   const searchParams = useSearchParams()
   const [data, setData] = useState<FortuneData | null>(null)
@@ -124,5 +124,24 @@ export default function ResultPage() {
         </p>
       </div>
     </div>
+  )
+}
+
+function LoadingFallback() {
+  return (
+    <div className="min-h-screen flex items-center justify-center">
+      <div className="text-center">
+        <div className="loading-spinner mx-auto" />
+        <p className="mt-4 text-guochao-cream/70">加载中...</p>
+      </div>
+    </div>
+  )
+}
+
+export default function ResultPage() {
+  return (
+    <Suspense fallback={<LoadingFallback />}>
+      <ResultContent />
+    </Suspense>
   )
 }
