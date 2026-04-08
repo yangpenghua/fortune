@@ -46,7 +46,7 @@ DOUBAO_MODEL=your_model_endpoint
 npm run dev
 ```
 
-访问 [http://localhost:3000](http://localhost:3000) 即可使用。
+访问 [http://localhost:9527](http://localhost:9527) 即可使用。
 
 ## 项目结构
 
