@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastScanned": 1773805001811,
+  "lastScanned": 1775632740853,
   "projectRoot": "/Users/wangyang/Desktop/claudeCode/games/suanming",
   "techStack": {
     "languages": [
@@ -63,24 +63,32 @@
     "isMonorepo": false,
     "workspaces": [],
     "mainDirectories": [
+      "public",
       "src"
     ],
     "gitBranches": null
   },
   "customNotes": [],
   "directoryMap": {
+    "public": {
+      "path": "public",
+      "purpose": "Public files",
+      "fileCount": 1,
+      "lastAccessed": 1775632740821,
+      "keyFiles": []
+    },
     "src": {
       "path": "src",
       "purpose": "Source code",
       "fileCount": 0,
-      "lastAccessed": 1773805001792,
+      "lastAccessed": 1775632740821,
       "keyFiles": []
     },
     "src/app": {
       "path": "src/app",
       "purpose": "Application code",
       "fileCount": 3,
-      "lastAccessed": 1773805001792,
+      "lastAccessed": 1775632740836,
       "keyFiles": [
         "globals.css",
         "layout.tsx",
@@ -91,21 +99,21 @@
       "path": "src/components",
       "purpose": "UI components",
       "fileCount": 0,
-      "lastAccessed": 1773805001792,
+      "lastAccessed": 1775632740836,
       "keyFiles": []
     },
     "src/lib": {
       "path": "src/lib",
       "purpose": "Library code",
       "fileCount": 0,
-      "lastAccessed": 1773805001798,
+      "lastAccessed": 1775632740836,
       "keyFiles": []
     },
     "src/types": {
       "path": "src/types",
       "purpose": "Type definitions",
       "fileCount": 1,
-      "lastAccessed": 1773805001798,
+      "lastAccessed": 1775632740837,
       "keyFiles": [
         "index.ts"
       ]
@@ -113,141 +121,207 @@
   },
   "hotPaths": [
     {
-      "path": "Dockerfile",
-      "accessCount": 6,
-      "lastAccessed": 1773891302579,
+      "path": "src/components/form/FortuneForm.tsx",
+      "accessCount": 7,
+      "lastAccessed": 1775636377202,
       "type": "file"
     },
     {
-      "path": "src/app/result/page.tsx",
-      "accessCount": 4,
-      "lastAccessed": 1773890604117,
-      "type": "file"
-    },
-    {
-      "path": "docker-compose.yml",
-      "accessCount": 4,
-      "lastAccessed": 1773891186366,
-      "type": "file"
-    },
-    {
-      "path": "DEPLOY_PLAN.md",
-      "accessCount": 2,
-      "lastAccessed": 1773886307254,
-      "type": "file"
-    },
-    {
-      "path": ".env.example",
-      "accessCount": 2,
-      "lastAccessed": 1773889383791,
-      "type": "file"
-    },
-    {
-      "path": "src/lib/doubao/client.ts",
-      "accessCount": 2,
-      "lastAccessed": 1773889383899,
-      "type": "file"
-    },
-    {
-      "path": ".env.local",
-      "accessCount": 2,
-      "lastAccessed": 1773889414202,
-      "type": "file"
-    },
-    {
-      "path": ".env",
-      "accessCount": 2,
-      "lastAccessed": 1773889414254,
-      "type": "file"
-    },
-    {
-      "path": "src/components/common/GuochaoCard.tsx",
-      "accessCount": 2,
-      "lastAccessed": 1773890467382,
+      "path": "src/app/globals.css",
+      "accessCount": 5,
+      "lastAccessed": 1775636438899,
       "type": "file"
     },
     {
       "path": "src/app/page.tsx",
-      "accessCount": 2,
-      "lastAccessed": 1773890506163,
+      "accessCount": 4,
+      "lastAccessed": 1775634305768,
+      "type": "file"
+    },
+    {
+      "path": "src/types/index.ts",
+      "accessCount": 4,
+      "lastAccessed": 1775634329461,
       "type": "file"
     },
     {
       "path": "package.json",
-      "accessCount": 2,
-      "lastAccessed": 1773890875879,
+      "accessCount": 3,
+      "lastAccessed": 1775634161791,
+      "type": "file"
+    },
+    {
+      "path": "src/components/common/GuochaoCard.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1775636134626,
+      "type": "file"
+    },
+    {
+      "path": "src/lib/doubao/client.ts",
+      "accessCount": 3,
+      "lastAccessed": 1775636776491,
       "type": "file"
     },
     {
       "path": "README.md",
       "accessCount": 2,
-      "lastAccessed": 1773890875931,
-      "type": "file"
-    },
-    {
-      "path": "next.config.js",
-      "accessCount": 2,
-      "lastAccessed": 1773891215115,
-      "type": "file"
-    },
-    {
-      "path": "tsconfig.json",
-      "accessCount": 1,
-      "lastAccessed": 1773886169543,
+      "lastAccessed": 1775633013746,
       "type": "file"
     },
     {
       "path": "src/app/layout.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1775633885909,
+      "type": "file"
+    },
+    {
+      "path": "src/app/api/fortune/route.ts",
+      "accessCount": 2,
+      "lastAccessed": 1775634166222,
+      "type": "file"
+    },
+    {
+      "path": "src/lib/doubao/prompts.ts",
+      "accessCount": 2,
+      "lastAccessed": 1775634170613,
+      "type": "file"
+    },
+    {
+      "path": "src/app/result/page.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1775634176246,
+      "type": "file"
+    },
+    {
+      "path": "src/components/result/FortuneCard.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1775634176868,
+      "type": "file"
+    },
+    {
+      "path": "src/lib/storage/index.ts",
+      "accessCount": 2,
+      "lastAccessed": 1775634177306,
+      "type": "file"
+    },
+    {
+      "path": "src/app/checkin/page.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1775634181205,
+      "type": "file"
+    },
+    {
+      "path": "src/app/history/page.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1775634181908,
+      "type": "file"
+    },
+    {
+      "path": "src/components/common/Navigation.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1775634182386,
+      "type": "file"
+    },
+    {
+      "path": "",
       "accessCount": 1,
-      "lastAccessed": 1773886169594,
+      "lastAccessed": 1775632918571,
+      "type": "directory"
+    },
+    {
+      "path": "tsconfig.json",
+      "accessCount": 1,
+      "lastAccessed": 1775632923366,
+      "type": "file"
+    },
+    {
+      "path": "src/lib/image/index.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775632955533,
       "type": "file"
     },
     {
       "path": "tailwind.config.ts",
       "accessCount": 1,
-      "lastAccessed": 1773886169704,
+      "lastAccessed": 1775632957476,
       "type": "file"
     },
     {
-      "path": "src/types/index.ts",
+      "path": "src/components/result/ResultActions.tsx",
       "accessCount": 1,
-      "lastAccessed": 1773886176458,
+      "lastAccessed": 1775632964170,
       "type": "file"
     },
     {
-      "path": "src/app/api/fortune/route.ts",
+      "path": "src/components/result/ResultHeader.tsx",
       "accessCount": 1,
-      "lastAccessed": 1773886176571,
+      "lastAccessed": 1775632965031,
       "type": "file"
     },
     {
-      "path": "nginx.conf.example",
+      "path": "src/components/result/ShareImage.tsx",
       "accessCount": 1,
-      "lastAccessed": 1773886217426,
+      "lastAccessed": 1775632966486,
       "type": "file"
     },
     {
-      "path": "nginx.conf.ip.example",
+      "path": "src/components/common/LoadingOverlay.tsx",
       "accessCount": 1,
-      "lastAccessed": 1773886420908,
+      "lastAccessed": 1775632967175,
       "type": "file"
     },
     {
-      "path": ".env.local.example",
+      "path": "src/components/common/ParticleBackground.tsx",
       "accessCount": 1,
-      "lastAccessed": 1773889383842,
+      "lastAccessed": 1775632972451,
       "type": "file"
     },
     {
-      "path": "src/app/history/page.tsx",
+      "path": "plan.md",
       "accessCount": 1,
-      "lastAccessed": 1773890447365,
+      "lastAccessed": 1775633014001,
       "type": "file"
     },
     {
-      "path": "src/app/result/loading.tsx",
+      "path": "20260408-星座运势功能完善/docs/需求描述.md",
       "accessCount": 1,
-      "lastAccessed": 1773890517132,
+      "lastAccessed": 1775635344460,
+      "type": "file"
+    },
+    {
+      "path": "20260408-星座运势功能完善/docs/技术方案.md",
+      "accessCount": 1,
+      "lastAccessed": 1775635497262,
+      "type": "file"
+    },
+    {
+      "path": "20260408-星座运势功能完善/docs/测试用例.md",
+      "accessCount": 1,
+      "lastAccessed": 1775635498880,
+      "type": "file"
+    },
+    {
+      "path": "20260408-星座运势功能完善/docs/任务分解.md",
+      "accessCount": 1,
+      "lastAccessed": 1775635500654,
+      "type": "file"
+    },
+    {
+      "path": "20260408-星座运势功能完善/docs/测试报告.md",
+      "accessCount": 1,
+      "lastAccessed": 1775636561244,
+      "type": "file"
+    },
+    {
+      "path": "src",
+      "accessCount": 1,
+      "lastAccessed": 1775636752365,
+      "type": "directory"
+    },
+    {
+      "path": "20260408-星座运势功能完善/docs/开发日志/2026-04-08.md",
+      "accessCount": 1,
+      "lastAccessed": 1775637149498,
       "type": "file"
     }
   ],

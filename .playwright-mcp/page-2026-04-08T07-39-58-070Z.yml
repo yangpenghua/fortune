@@ -1,0 +1,60 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e4]:
+      - link "🔮 测名字" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e6]: 🔮
+        - generic [ref=e7]: 测名字
+      - generic [ref=e8]:
+        - link "首页" [ref=e9] [cursor=pointer]:
+          - /url: /
+        - link "历史记录" [ref=e10] [cursor=pointer]:
+          - /url: /history
+        - link "每日签到" [ref=e11] [cursor=pointer]:
+          - /url: /checkin
+  - main [ref=e12]:
+    - generic [ref=e14]:
+      - generic [ref=e15]:
+        - generic [ref=e16]: 🔮
+        - heading "测名字AI算命" [level=1] [ref=e17]
+        - paragraph [ref=e18]: 输入姓名，探索你的专属运势
+      - generic [ref=e21]:
+        - generic [ref=e22]:
+          - generic [ref=e23]: 请输入姓名
+          - textbox "请输入2-10个汉字" [ref=e24]
+          - paragraph [ref=e25]: 支持中文姓名，2-10个汉字
+        - generic [ref=e26]:
+          - generic [ref=e27]: 性别（可选）
+          - generic [ref=e28]:
+            - button "👨男" [ref=e29] [cursor=pointer]
+            - button "👩女" [ref=e30] [cursor=pointer]
+            - button "🔮保密" [ref=e31] [cursor=pointer]
+        - generic [ref=e32]:
+          - generic [ref=e33]: 出生日期（可选）
+          - textbox [ref=e34]
+          - paragraph [ref=e35]: 选择您的出生日期，让测算更精准
+        - generic [ref=e36]:
+          - generic [ref=e37]: 测算风格
+          - generic [ref=e38]:
+            - button "📜 传统八字" [ref=e39] [cursor=pointer]:
+              - generic [ref=e40]: 📜
+              - text: 传统八字
+            - button "⭐ 星座运势" [ref=e41] [cursor=pointer]:
+              - generic [ref=e42]: ⭐
+              - text: 星座运势
+            - button "🃏 塔罗占卜" [ref=e43] [cursor=pointer]:
+              - generic [ref=e44]: 🃏
+              - text: 塔罗占卜
+        - button "✨ 开始测算 ✨" [disabled] [ref=e45] [cursor=pointer]
+        - paragraph [ref=e46]: 仅供娱乐，请勿迷信
+      - generic [ref=e48]:
+        - generic [ref=e49]:
+          - generic [ref=e50]: 👤
+          - generic [ref=e51]: 性格解析
+        - generic [ref=e52]:
+          - generic [ref=e53]: 💼
+          - generic [ref=e54]: 事业运势
+        - generic [ref=e55]:
+          - generic [ref=e56]: 💕
+          - generic [ref=e57]: 感情走向
+  - alert [ref=e58]
