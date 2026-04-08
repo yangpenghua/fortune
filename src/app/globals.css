@@ -78,6 +78,7 @@ body {
   background: linear-gradient(135deg, rgba(212, 175, 55, 0.1) 0%, rgba(196, 30, 58, 0.1) 100%);
   border-radius: 16px;
   overflow: hidden;
+  z-index: 1;
 }
 
 .guochao-border::before {
@@ -206,4 +207,23 @@ body {
 .card-hover:hover {
   transform: translateY(-4px);
   box-shadow: 0 12px 40px rgba(212, 175, 55, 0.2);
+}
+
+/* 确保卡片内容可点击 */
+.guochao-border > div {
+  position: relative;
+  z-index: 2;
+}
+
+/* 确保所有按钮元素可点击 */
+button[type="button"] {
+  pointer-events: auto;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* 确保加载状态下按钮真的被禁用 */
+button:disabled {
+  pointer-events: none;
+  opacity: 0.5;
 }
